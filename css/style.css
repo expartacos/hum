@@ -1,0 +1,65 @@
+
+body{
+    background: url('../images/bg1.jpg');
+    background-size: cover;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+   
+    
+}
+
+.profile{
+    border-radius: 50%;
+    width: 30%;
+    border: 2px solid white;
+}
+
+.txt-just{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+.face{
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+table tr:nth-child(even) {
+    text-align: justify;
+    background-color: white;
+  }
+  table tr:nth-child(odd) {
+    text-align: justify;
+    background-color:white;
+  }
+  table th {
+    
+    color: orange;
+    background-color: black;
+  }
+
+.btn{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: tomato;
+    border-color: tomato;
+    color: white;
+    text-decoration: none;
+}
+.space{
+    padding-bottom: 25px;
+}
